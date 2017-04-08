@@ -1,0 +1,94 @@
+/*背景*/
+#cla_bg
+{
+    position: absolute;
+    top: 154px;
+    left: 72%;
+
+    width: 23.38%;
+}
+
+/*收藏页中间文字布局*/
+.classify
+{
+    height: auto;
+}
+
+.classify .mes_list
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: 920px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.my_first{
+	font-size: 25px;
+	padding: 25px;
+	margin: 0;
+	height: 20px;
+}
+.my_detail{
+	width: 860px;
+	margin: 15px 30px;
+	background-color: #f4f3f5;
+	position: relative;
+	opacity: 0.8;
+	font-size: 15px;
+	line-height: 35px;
+	color: #292323;
+}
+/*解决高度塌陷*/
+.none_detail{
+	width: 0;
+	height: 0;
+	clear: both;
+}
+
+/*左边信息*/
+.left_detail{
+	width: 425px;
+	padding: 10px 2px;
+	float: left;
+	margin: 0;
+}
+.left_detail_1,.right_detail_1{
+	font-size: 18px;
+	color: #0C0B0B;
+}
+.left_detail_1 span{
+	font-size: 14px;
+	padding-left: 10px;
+}
+.left_detail_2 span{
+	font-size: 14px;
+	padding: 0px 10px;
+	color: red;
+}
+
+/*右边信息*/
+.right_detail{
+	width: 425px;
+	padding: 10px 2px;
+	float: left;
+	margin: 0;
+}
+.right_detail_3 span{
+	border: 1px solid gray;
+	margin-right: 10px;
+}
+.right_detail_img{
+	position: absolute;
+	right: 25px;
+	top: 25px;
+}
+/*底部*/
+.classify .footer
+{
+    position: static;
+
+    overflow: hidden;
+}

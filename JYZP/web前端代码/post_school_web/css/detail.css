@@ -1,0 +1,229 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+legend,
+button
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+html,
+body
+{
+    font-family: '微软雅黑';
+    font-size: 14px;
+
+    position: relative;
+
+    min-width: 1110px;
+
+    color: #635c5c;
+    background: url('../images/body_bg.png') repeat-x;
+    background: rgb(241,238,242);
+}
+
+
+a
+{
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+
+    text-decoration: none;
+
+    color: inherit;
+    border: none;
+}
+
+/*头部*/
+.log_box
+{
+    width: 100%;
+    height: 49px;
+
+    background: #555252;
+}
+.login
+{
+    float: right;
+
+    margin-right: 24px;
+
+    color: white;
+}
+.login a,
+.login span
+{
+    font: 15px/49px '微软雅黑';
+
+    position: relative;
+    z-index: 2;
+
+    color: #aea6a6;
+}
+.login span
+{
+    margin: 0 10px;
+}
+
+/*背景*/
+#cla_bg
+{
+    position: absolute;
+    top: 120px;
+    left: 66%;
+
+    width: 23.38%;
+}
+/*内容*/
+body
+{
+    background: rgb(241,238,242);
+}
+#main
+{
+    width: 100%;
+    height: 85%;
+    padding-top: 0;
+
+    background: rgb(241,238,242);
+}
+#content
+{
+    width: 737px;
+    margin: 24px auto 24px auto;
+
+    border-radius: 20px;
+    background: rgb(247,247,249);
+}
+#information
+{
+    font-family: '微软雅黑';
+    font-size: 14px;
+
+    margin: 40px;
+}
+.name
+{
+    font-size: 28px;
+
+    padding-top: 27px;
+    padding-bottom: 10px;
+
+    color: #24cfb6;
+    border-bottom: 1px solid gray;
+}
+.name span
+{
+    font-size: 14px;
+
+    margin-left: 10px;
+}
+.place
+{
+    margin-top: 20px;
+}
+.place span
+{
+    padding-right: 5px;
+    padding-left: 10px;
+
+    color: #24cfb6;
+}
+.entice
+{
+    margin-top: 30px;
+}
+.picture
+{
+    height: 48px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.picture img
+{
+    float: left;
+
+    width: 57.62px;
+    height: 45px;
+}
+.picture span
+{
+    font-size: 23px;
+    line-height: 48px;
+
+    height: 48px;
+
+    color: #24cfb6;
+}
+.duty
+{
+    line-height: 17px;
+
+    height: 17px;
+    margin-right: 44px;
+    margin-left: 44px;
+}
+
+
+/*底部*/
+body .footer
+{
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+
+    width: 100%;
+    height: 15%;
+
+    background: #fbfdfd;
+}
+
+.footer > p,
+.about
+{
+    width: 65%;
+    margin: 1.5% auto;
+}
+
+.about
+{
+    overflow: hidden;
+}
+
+.footer > p
+{
+    font-size: 15px;
+}
+
+.footer li
+{
+    float: left;
+
+    margin-left: 47px;
+}

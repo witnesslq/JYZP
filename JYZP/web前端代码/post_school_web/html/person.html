@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>个人中心</title>
+    <link href="../css/person.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="../js/survey.js"></script>
+    <script type="text/javascript" src="../js/person.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="log_box">
+        <div class="login">
+            <a href="index.html">登陆</a>
+            <span>|</span>
+            <a href="index.html">注册</a>
+        </div>
+    </div>
+    <div class="nav_box">
+        <div class="nav">
+            <a href="index.html">首页</a>
+            <a href="classify.html">分类</a>
+            <a class="last" href="person.html">个人中心</a>
+        </div>
+    </div>
+</div>
+<div id="main">
+    <div id="content">
+        <div class="personal_info">
+            <img class="personal_mes" src="../images/person_mes_bg.png">
+            <div class="personal">
+                <img class="head_img" src="../images/head_img.png">
+                <div id="personal_intro">
+                    <span id="personal_name">宋晓菲</span>
+                    <br>
+                    <span id="personal_character">待人诚恳，与人为善，内外兼有。</span>
+                    <br>
+                    <img id="personal_head_image" src="../images/icon__head_image.jpg">
+                    <span id="personal_four"><span class="four">女</span><span class="four">本科</span><span class="four">应届毕业生</span><span
+                            class="four">重庆</span> </span>
+                    <br>
+                    <img src="../images/icon__phone.png">
+                    <span id="personal_phone">1888888888</span>
+                    <img src="../images/icon__email.jpg">
+                    <span id="personal_email"> 27777777777@gamil.com</span>
+                    <div id="personal_edit"><a href="#0">编辑</a></div>
+                    <div id="personal_change" style="display: none">
+                        <form id="form_message">
+                            <ul>
+                                <li>
+                                    姓名：<input type="text" placeholder="请输入姓名" value=""/>
+                                </li>
+                                <li>
+                                    性别：<select id="sex">
+                                    <option>男</option>
+                                    <option>女</option>
+                                </select>
+                                </li>
+                                <li>
+                                    联系电话：<input type="tel" placeholder="请输入电话"/>
+                                </li>
+                                <li>
+                                    联系邮箱：<input type="email" placeholder="请输入邮箱"/>
+                                </li>
+                                <li>
+                                    学校名称：<input type="text" placeholder="请输入学校名称" value=""/>
+                                </li>
+                                <li>
+                                    毕业年份：<input type="text" placeholder="请输入年份（例2014）" value=""/>
+                                </li>
+                                <li>
+                                    所学专业：<input type="text" placeholder="请输入所学专业" value=""/>
+                                </li>
+                                <li>
+                                    学历：<select id="degree">
+                                    <option>专科</option>
+                                    <option>本科</option>
+                                    <option>研究生</option>
+                                    <option>硕士</option>
+                                    <option>博士</option>
+                                </select>
+                                </li>
+                                <button id="keep">保存</button>
+                                <button id="cancel">取消</button>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+                <div id="personal_education_exp" class="exp">
+                    <span>教育经历</span>
+                    <div class="personal_content">
+                        <div class="add_exp">
+                            <a href="#personal_education_exp">
+                                <img src="../images/personal_exp_bg.jpg">
+                                <span>添加教育经历</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="personal_work_exp" class="exp">
+                    <span>实习经历</span>
+                    <div class="personal_content">
+                        <div class="add_exp">
+                            <a href="#personal_work_exp">
+                                <img src="../images/personal_exp_bg.jpg">
+                                <span>添加实习经历</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="personal_project_exp" class="exp">
+                    <span>项目经验</span>
+                    <div class="personal_content">
+                        <div class="add_exp">
+                            <a href="#personal_project_exp">
+                                <img src="../images/personal_exp_bg.jpg">
+                                <span>添加项目经验</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="personal_expect_work" class="exp">
+                    <span>期望工作</span>
+                    <div class="personal_content">
+                        <div class="add_exp">
+                            <a href="#personal_expect_work">
+                                <img src="../images/personal_exp_bg.jpg">
+                                <span>添加期望工作</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="fill"></div>
+            </div>
+            <div id="personal_class">
+                <div id="resume_complete_info">
+                    <span>简历完成度：</span>
+                    <span id="resume_complete_process">20%</span>
+                    <a href="#"><span>预览简历</span></a>
+                </div>
+                <div id="resume_comlete_detail">
+                    <div>
+                        <img src="../images/icon_class_process.jpg">
+                        <span>基本信息</span>
+                    </div>
+                    <div class="process_line1"></div>
+                    <div>
+                        <img src="../images/process_class_2.gif">
+                        <span>教育经历</span>
+                    </div>
+                    <div class="process_line1"></div>
+                    <div>
+                        <img src="../images/process_class_3.gif">
+                        <span>实习经历</span>
+                    </div>
+                    <div class="process_line1"></div>
+                    <div>
+                        <img src="../images/process_class_4.gif">
+                        <span>项目经验</span>
+                    </div>
+                    <div class="process_line1"></div>
+                    <div>
+                        <img src="../images/process_class_5.gif">
+                        <span>期望工作</span>
+                    </div>
+                    <div class="svy_btn">
+                        <a>问卷调查</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img id="cla_bg" src="../images/cla_bg.png"/>
+    </div>
+    <div class="footer">
+        <p class="app">Post School | APP</p>
+        <ul class="about">
+            <li><a href="#">版本更新</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">在线交流</a></li>
+            <li><p href="#">服务热线：0000-8888888</p></li>
+        </ul>
+    </div>
+    <div class="panel_box">
+        <div class="panel">
+            <div class="svy_list">
+                <h3>职位问卷</h3>
+                <p class="hint">填问卷后提交每次登陆将会在首页为您推送需要的相关信息，
+                    请认真填写哦。</p>
+                <ul class="que_box">
+                    <li class="desc">
+                        <h4>请输入一句话描述</h4>
+                        <form>
+                            <input type="text" placeholder="如：我最擅长" value=""/>
+                            <input type="text" placeholder="JAVA" value=""/>
+                            <input type="button" value="提交">
+                        </form>
+                    </li>
+                    <li class="clone">
+                        <form>
+                            <h1>HTML?</h1>
+                            <label>
+                                <input type="radio" value="熟悉" name="q1"/>熟悉
+                            </label>
+                            <label>
+                                <input type="radio" value="一般" name="q1"/>一般
+                            </label>
+                            <label>
+                                <input type="radio" value="陌生" name="q1"/>陌生
+                            </label>
+                            <a class="last_page"></a>
+                        </form>
+                    </li>
+                    <li class="confirm">
+                        <p>感谢填写，如确认填写无误后可提交问卷</p>
+                        <input type="button" value="提交"/>
+                        <input class="last_page" type="button" value="修改"/>
+                    </li>
+                    <li class="clone">
+                        <form>
+                            <h1>HTML?</h1>
+                            <label>
+                                <input type="radio" value="熟悉" name="q1"/>熟悉
+                            </label>
+                            <label>
+                                <input type="radio" value="一般" name="q1"/>一般
+                            </label>
+                            <label>
+                                <input type="radio" value="陌生" name="q1"/>陌生
+                            </label>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="svy_res">
+                <h3>问卷结果</h3>
+                <p class="hint">感谢您的填写，我们会在第一时间给您推送您需要的信息</p>
+                <ul class="res_box">
+                    <li class="clone">
+                        <p><span>html</span>:<span>熟悉</span></p>
+                    </li>
+                </ul>
+                <input type="button" value="确定"/>
+            </div>
+            <a class="close"></a>
+        </div>
+    </div>
+</body>
+
+</html>

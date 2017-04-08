@@ -1,0 +1,18 @@
+2015年11月接触前端开始自学到2016年5月，第一次加入了学校的实验室，有幸接触了第一个项目。是关于一个招聘信息类的网站。
+当时app版已经接近尾声，即将开始做网页版。搭建好的数据库里已经有几万条招聘信息可供支撑。
+第一次做项目，采用js原生代码实现。
+1.样式方面：招聘分类比如薪资地点职业的选择，需要有点击效果。用js来实现style的样式切换。
+2.每次加载的信息条数固定为10.需要做一个cloneNode（true/false）; 再请求数据期间做一个加载的动态图;
+3.个人中心管理：采用form表单格式，用js判断是否为空并且用ajax提交。json数据特殊符号用了转义字符，以及是否加一个变量名。
+
+收获最大的就是实战使用ajax。创建XMLHttpRequest对象，onreadystatechange事件，status=200 ，post ， GET与POST的区别 ，数据格式JSON。
+JSON.Parse(responseText). 用innerHTML替换相应的内容。
+
+高度塌陷：当一个div框的子元素都设了float（left/right）的时候，div框默认为0，也就是内部元素无法撑起div的高度。
+  1.直接设置div的高度，但是对于动态变换的高度不合适。
+  2.在浮动元素末尾添加一个空的标签,例如 <div style=”clear:both”></div>。但是会添加多少无意义的空标签，有违结构与表现的分离。
+  3.使用:after 伪元素。:after是伪元素（Pseudo-Element），不是伪类（某些CSS手册里面称之为“伪对象”）。
+  4.父元素设置 overflow：auto/hidden 属性。
+  5.父元素设置display:table。盒模型属性已经改变，由此造成的一系列问题。
+  
+innerwidth/innerheight : 动态的显示该可视窗口的宽度和高度，主要用于图片的宽高成比例。

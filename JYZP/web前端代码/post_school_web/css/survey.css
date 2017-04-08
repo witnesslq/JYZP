@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+li
+{
+    overflow: hidden;
+
+    width: 700px;
+    margin: 20px;
+    padding: 10px;
+
+    text-align: center;
+
+    background: cadetblue;
+}
+
+.clone
+{
+    display: none;
+}
+
+li div
+{
+    width: 100%;
+
+    background: coral;
+}
+
+ul
+{
+    overflow: hidden;
+
+    width: 850px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+
+    background: olive;
+}
+
+input[type='submit']
+{
+    display: block;
+
+    width: 100px;
+    height: 50px;
+    margin: 25px auto;
+
+    cursor: pointer;
+}

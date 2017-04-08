@@ -1,0 +1,764 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+legend,
+button
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+html,
+body
+{
+    font-family: '微软雅黑';
+    font-size: 14px;
+
+    position: relative;
+
+    min-width: 1024px;
+
+    color: #635c5c;
+    background: url('../images/body_bg.png') repeat-x;
+}
+
+input,
+textarea,
+select,
+a
+{
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+
+    text-decoration: none;
+
+    color: inherit;
+    border: none;
+}
+
+h2
+{
+    font-size: 15px;
+    font-weight: normal;
+
+    color: #262424;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+/*导航栏*/
+.header
+{
+    height: 98px;
+}
+
+.header .log_box
+{
+    width: 100%;
+    height: 49px;
+
+    background: #555252;
+}
+
+.login
+{
+    float: right;
+
+    margin-right: 24px;
+}
+
+.login span
+{
+    background: #555252;
+}
+
+.header a,
+.header span
+{
+    font: 15px/49px '微软雅黑';
+
+    position: relative;
+    z-index: 2;
+
+    color: #aea6a6;
+}
+
+.header a.last
+{
+    color: #020202;
+}
+
+.header a:hover
+{
+    color: #020202;
+}
+
+.header span
+{
+    margin: 0 10px;
+}
+
+.header .nav_box
+{
+    float: right;
+
+    width: 805px;
+    height: 48px;
+
+    border-bottom: 1px solid #ebe7ec;
+}
+
+.header .nav
+{
+    float: right;
+
+    margin-right: 167px;
+}
+
+.header .nav a
+{
+    margin-left: 72px;
+}
+
+.header .nav a.a_1
+{
+    margin: 0;
+}
+
+#main
+{
+    margin-top: 31px;
+}
+
+#content
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.personal_info
+{
+    float: left;
+
+    width: 694px;
+
+    background-color: rgba(255, 255, 255, .6);
+}
+
+.personal_mes
+{
+    z-index: 0;
+
+    width: 694px;
+}
+
+.head_img
+{
+    z-index: 1;
+
+    width: 114px;
+    height: 114px;
+    margin-top: -57px;
+    margin-left: 287px;
+}
+
+.personal
+{
+    width: 694px;
+}
+
+#personal_intro
+{
+    position: relative;
+
+    text-align: center;
+
+    background-color: #f9f8f9;
+}
+
+#personal_name
+{
+    font-weight: bolder;
+}
+
+#personal_intro span
+{
+    margin-bottom: 10px;
+
+    background: #f7f7f9;
+}
+
+#personal_head_image
+{
+    margin-right: 2px;
+    margin-bottom: -3px;
+    margin-left: -2px;
+}
+
+#personal_name
+{
+    font-size: 19px;
+    font-style: normal;
+    line-height: 30px;
+}
+
+#personal_character
+{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#personal_four .four
+{
+    font-size: 11px;
+    line-height: 30px;
+
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#personal_phone
+{
+    font-size: 11px;
+    line-height: 30px;
+
+    margin-right: 15px;
+    margin-left: 1px;
+}
+
+#personal_email
+{
+    font-size: 11px;
+    line-height: 30px;
+
+    margin-left: 1px;
+}
+
+#personal_edit
+{
+    font-size: 15px;
+
+    position: absolute;
+    top: 15px;
+    right: 50px;
+
+    visibility: hidden;
+
+    width: 60px;
+
+    color: #1fd1b1;
+}
+
+#personal_change
+{
+    font-size: larger;
+    font-weight: 500;
+
+    position: relative;
+
+    width: 694px;
+    margin-top: -120px;
+
+    background-color: #d8fecf;
+}
+
+#form_message select
+{
+    width: 195px;
+}
+
+#form_message ul li
+{
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: right;
+}
+
+#keep
+{
+    margin: 5px 0 5px 100px;
+
+    color: white;
+    background-color: green;
+}
+
+#cancel
+{
+    margin: 5px 0 5px 20px;
+}
+
+.exp
+{
+    width: 664px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.personal_content
+{
+    height: 85px;
+    margin-top: 10px;
+
+    border: 2px solid #d5caca;
+    background: #f1eef2;
+}
+
+.exp span
+{
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #010101;
+}
+
+.add_exp
+{
+    line-height: 30px;
+
+    width: 173px;
+    margin: 0 auto;
+    margin-top: 24px;
+
+    text-align: center;
+}
+
+.add_exp span
+{
+    font-size: 19px;
+
+    color: #a8a3a3;
+    background: #f1eef2;
+}
+
+.add_exp img
+{
+    width: 29px;
+    height: 29px;
+    margin-right: 3px;
+    margin-bottom: -7px;
+}
+
+#fill
+{
+    height: 60px;
+}
+
+#personal_class
+{
+    position: absolute;
+    top: 0;
+    left: 712px;
+
+    float: right;
+
+    width: 288px;
+    padding-bottom: 10px;
+
+    border: 1px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .6);
+}
+
+#resume_complete_info
+{
+    margin-top: 17px;
+    margin-bottom: 14px;
+    margin-left: 20px;
+}
+
+#resume_complete_info span
+{
+    font-size: 15px;
+    font-weight: normal;
+
+    color: #000;
+    background: none;
+}
+
+#resume_complete_info a span
+{
+    color: #1fd1b1;
+}
+
+#resume_complete_info a
+{
+    float: right;
+
+    margin-right: 20px;
+}
+
+#resume_comlete_detail img
+{
+    width: 29px;
+    height: 29px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: 31px;
+}
+
+#resume_comlete_detail span
+{
+    line-height: 29px;
+
+    margin-left: 17px;
+
+    background: none;
+}
+
+.process_line1
+{
+    width: 1px;
+    height: 0;
+    margin-top: 10px;
+    margin-left: 44px;
+
+    background: #a99;
+}
+
+.svy_btn
+{
+    font-size: 15px;
+
+    float: right;
+
+    width: 60px;
+    height: 20px;
+    margin-right: 20px;
+
+    cursor: pointer;
+
+    color: #1fd1b1;
+}
+
+#cla_bg
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 72%;
+
+    width: 23.38%;
+}
+
+.footer
+{
+    bottom: 0;
+
+    clear: both;
+
+    width: 100%;
+    height: 15%;
+    padding: 1px 0;
+
+    background: #fbfdfd;
+}
+
+.footer > p,
+.about
+{
+    width: 65%;
+    margin: 1.5% auto;
+}
+
+.about
+{
+    overflow: hidden;
+}
+
+.footer > p
+{
+    font-size: 15px;
+}
+
+.footer li
+{
+    float: left;
+
+    margin-left: 47px;
+}
+
+/*问卷调查*/
+.panel_box
+{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, .6);
+}
+
+.panel
+{
+    position: fixed;
+    top: 20%;
+    left: 25%;
+
+    overflow: hidden;
+
+    width: 553px;
+    height: 340px;
+    padding: 20px;
+
+    text-align: center;
+
+    border: 2px solid #dbd9db;
+    -webkit-border-radius: 13px;
+       -moz-border-radius: 13px;
+            border-radius: 10px;
+    background: #ececee;
+}
+
+.panel h3
+{
+    font-size: 20px;
+    font-weight: normal;
+
+    color: #020202;
+}
+
+.panel .hint
+{
+    font-size: 17px;
+    font-weight: lighter;
+
+    margin: 10px 40px;
+
+    color: #545252;
+}
+
+.que_box
+{
+    position: absolute;
+    top: 130px;
+    left: 26.5px;
+}
+
+.que_box li
+{
+    position: absolute;
+    top: 0;
+    left: 596px;
+
+    width: 460px;
+    height: 180px;
+    padding: 10px 40px 30px;
+
+    text-align: left;
+
+    -webkit-border-radius: 13px;
+       -moz-border-radius: 13px;
+            border-radius: 10px;
+    background: rgba(255, 255, 255, .6);
+}
+
+.que_box .desc
+{
+    top: 0;
+    left: 0;
+
+    text-align: center;
+}
+
+.que_box h4
+{
+    font-size: 17px;
+
+    margin: 20px 0;
+}
+
+.que_box input[type='text']
+{
+    width: 200px;
+    height: 50px;
+
+    text-indent: 2em;
+}
+
+.que_box input[type='button'],
+.svy_res input[type='button']
+{
+    font-size: 17px;
+    font-weight: bold;
+
+    display: block;
+
+    width: 130px;
+    height: 47px;
+    margin: 20px auto 0;
+
+    cursor: pointer;
+
+    color: #fff;
+    border-radius: 10px;
+    background: #89dcf4;
+}
+
+.que_box .clone input[type='button'],
+.clone a
+{
+    font-size: 14px;
+
+    position: absolute;
+    top: 150px;
+
+    width: 80px;
+    height: 30px;
+}
+
+.que_box .clone .last_page
+{
+    left: 450px;
+
+    cursor: pointer;
+
+    background: url('../images/svy_back.png') no-repeat;
+    background-size: 33px 30px;
+}
+
+.que_box h1
+{
+    font-size: 25px;
+    font-weight: bold;
+
+    margin: 50px 0 20px;
+}
+
+.que_box input[type='radio']
+{
+    margin: 0 5px;
+}
+
+.que_box label
+{
+    font-size: 17px;
+
+    margin-right: 20px;
+
+    cursor: pointer;
+}
+
+.que_box .warning
+{
+    font-size: 12px;
+
+    position: absolute;
+
+    display: none;
+
+    color: red;
+}
+
+.que_box #war_1
+{
+    top: 90px;
+    left: 200px;
+}
+
+.que_box #war_2
+{
+    top: 90px;
+    left: 400px;
+}
+
+.confirm p
+{
+    font-size: 20px;
+    font-weight: bold;
+
+    width: 360px;
+    margin: 15px auto;
+}
+
+/*问卷结果*/
+.svy_res
+{
+    display: none;
+}
+
+.res_box .clone
+{
+    line-height: 58px;
+
+    height: 58px;
+    margin: 9px 0;
+
+    text-align: center;
+
+    background: rgba(255, 255, 255, .6);
+}
+
+.res_box span
+{
+    font-size: 20px;
+    font-weight: bold;
+
+    display: inline-block;
+
+    width: 150px;
+
+    background: none;
+}
+
+.panel .svy_res input
+{
+    margin: 10px auto;
+}
+
+.panel .close
+{
+    position: absolute;
+    top: 10px;
+    right: 0;
+
+    width: 37px;
+    height: 37px;
+
+    cursor: pointer;
+
+    background: url('../images/svy_close_btn.png') no-repeat;
+}

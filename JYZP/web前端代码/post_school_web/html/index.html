@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>post_school</title>
+    <link href="../css/index.css" type="text/css" rel="stylesheet"/>
+</head>
+<body id="index">
+<div class="wrap">
+    <div class="header">
+        <div class="log_box">
+            <div class="login">
+                <a href="#" id="login">登陆</a>
+                <span>|</span>
+                <a href="#" id="register">注册</a>
+            </div>
+        </div>
+        <div class="nav_box">
+            <div class="nav">
+                <a class="active a_1" href="#">首页</a>
+                <a href="classify.html">分类</a>
+                <a class="last" href="person.html">个人中心</a>
+            </div>
+        </div>
+    </div>
+    <div id="register_window">
+        <form>
+            <input class="login_layout" type="text" id="register_username" placeholder="请输入用户名">
+            <br>
+            <input class="login_layout" type="password" id="register_password" placeholder="请输入密码">
+            <br>
+            <input class="login_layout" type="password" id="password_again" placeholder="确认密码">
+        </form>
+        <div>
+            <button id="register_button" class="login_layout"><span>注  册</span></button>
+        </div>
+        <div class="app_link">
+            <span>下载app了解更多哦~</span>
+            <img src="../images/test.png">
+        </div>
+    </div>
+    <div id="login_window">
+        <form>
+            <input class="login_layout" type="text" id="username" placeholder="请输入用户名">
+            <br>
+            <input class="login_layout" type="password" id="password" placeholder="请输入密码">
+        </form>
+        <div id="wrong_notice" class="login_layout">
+            <span>-</span>
+        </div>
+        <div>
+            <button id="login_button" class="login_layout"><span>登  录</span></button>
+        </div>
+        <div class="login_layout">
+            <a href="#" id="tourist"><span>随便看看</span></a>
+            <a href="#" id="to_register"><span>快速注册</span></a>
+        </div>
+        <div class="app_link">
+            <span>下载app了解更多哦~</span>
+            <img src="../images/test.png">
+        </div>
+    </div>
+    <div id="main">
+        <img id="main_bg" src="../images/main_bg.png"/>
+        <div id="main_list_loading">
+            <div id="loading_img_bg"></div>
+            <ul class="mes_list">
+                <li class="li">
+                    <a href="#">
+                        <div class="job">
+                            <h2></h2>
+                            <p class="salary"></p>
+                            <p class="exp"></p>
+                        </div>
+                        <div class="company">
+                            <h2></h2>
+                            <p class="com_type"></p>
+                        </div>
+                        <p class="introduce"></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <img id="loading_img" src="../images/loading.gif">
+    <div class="footer">
+        <p class="app">Post School | APP</p>
+        <ul class="about">
+            <li><a href="#">版本更新</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">在线交流</a></li>
+            <li><p href="#">服务热线：0000-8888888</p></li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="../js/register.js"></script>
+    <script type="text/javascript" src="../js/cookie.js"></script>
+    <script type="text/javascript" src="../js/login.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+</div>
+</body>
+</html>
